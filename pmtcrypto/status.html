@@ -1,37 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Current Status - Paramount Crypto</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Current Status</h1>
-        <nav>
-            <ul>
-                <li><a href="..\docs\index.html">Home</a></li>
-                <li><a href="..\pmtcrypto\status.html">Current Status</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Current Status - Paramount Crypto</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background-color: black;
+                color: rgb(121, 38, 38);
+                font-family: "Times New Roman", Times, serif;
+            }
+            header {
+                background-color: #121741; 
+            }
+            .blog-post {
+                background-color: #8f1f1f; 
+            }
+            .card-text {
+                color: black; /* Change blog text color to black */
+            }
+            footer {
+                background-color: #343a40; 
+            }
+            .nav-link {
+                color: rgb(181, 197, 35) !important;
+            }
+            .nav-link:hover {
+                color: #D8B7DD !important;
+            }
+        </style>
+    </head>
+    <body>
 
+        <header class="text-white text-center py-4">
+            <h1>**Paramount Crypto**</h1>
+            <p>The future gaming currency.</p>
+            
+            <!-- Navigation Links -->
+            <div class="d-flex justify-content-center">
+                <a href="..\docs\index.html" class="nav-link mx-3">Home</a>
+                <a href="..\pmtcrypto\status.html" class="nav-link mx-3">Current Status</a>
+            </div>
+        </header>
     <main>
-        <h2>Project Updates</h2>
-        <p>Here you will find the latest updates on the progress of Paramount Crypto (PMT).</p>
+        <!-- Blog Container -->
+        <div class="container my-5">
 
-        <section id="updates">
-            <article>
-                <h3>January 2025</h3>
-                <p>Development of the main platform has begun. Stay tuned for more updates!</p>
-            </article>
-        </section>
+            <!-- Blog Post 1 -->
+            <div class="row mb-4">
+                <div class="col-md-10 offset-md-1 blog-post">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Initial Mission Statement</h4>
+                            <h6 class="card-subtitle text-muted">January 20, 2025 @ 10:12 PM </h6>
+                            <p class="card-text">The basic consept of the project was created and posted. This will take a few days to fully express the intent of the company. 
+                                The basic shell has been posted and will be continually edited until complete. An overall outline of the Mission Statement was created. Throughout 
+                                the next few days, the Phases of the the mission plan will be explained and captured.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="row mb-4">
+                <div class="col-md-8 offset-md-2 blog-post">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Website Created!</h4>
+                            <h6 class="card-subtitle text-muted">January 19, 2025</h6>
+                            <p class="card-text">A basic website has been created. This allows for potential backers to view both the concept of the project and current happenings. As the project progresses, the website will expand.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p><a href="mailto:contact@paramountcrypto.com" class="text-white">Email Us</a></p>
         <p>&copy; 2025 Paramount Crypto. All rights reserved.</p>
-        <p><a href="mailto:contact@paramountcrypto.com">Email Us</a></p>
     </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
